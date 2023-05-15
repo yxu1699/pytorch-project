@@ -11,7 +11,7 @@ import data
 import model
 
 parser = argparse.ArgumentParser(description='PyTorch Wikitext RNN/LSTM/GRU/Transformer Language Model')
-parser.add_argument('--data', type=str, default='D:/project/pytorch/examples-main/examples-main/word_language_model/data/wikitext',
+parser.add_argument('--data', type=str, default='D:/project/pytorch/examples-main/examples-main/word_language_model/pytorch-project/data/wikitext',
                     help='location of the data corpus')
 parser.add_argument('--model', type=str, default='LSTM',
                     help='type of network (RNN_TANH, RNN_RELU, LSTM, GRU, Transformer)')
